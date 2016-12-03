@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/tela4">
+
+    <Button
+        android:layout_width="99dp"
+        android:layout_height="34dp"
+        android:id="@+id/button7"
+        android:onClick="portfolio"
+        android:nestedScrollingEnabled="false"
+        android:background="@drawable/bot_port"
+        android:layout_marginBottom="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="99dp"
+        android:layout_height="34dp"
+        android:id="@+id/button8"
+        android:onClick="youtube"
+        android:background="@drawable/bot_youtube"
+        android:layout_above="@+id/button7"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
+
+    <Button
+        android:layout_width="99dp"
+        android:layout_height="34dp"
+        android:id="@+id/button9"
+        android:onClick="sair2"
+        android:nestedScrollingEnabled="false"
+        android:background="@drawable/bot_sair"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="99dp"
+        android:layout_height="34dp"
+        android:id="@+id/button10"
+        android:background="@drawable/bot_sobre"
+        android:onClick="sobre"
+        android:layout_alignTop="@+id/button9"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="29dp"
+        android:id="@+id/button11"
+        android:onClick="voltar"
+        android:background="@drawable/voltar"
+        android:layout_alignTop="@+id/button10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
